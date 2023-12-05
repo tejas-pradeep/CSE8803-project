@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LTM Enhancement for COVID-19 Modeling</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .author-img { width: 100px; height: auto; }
+        .section { margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<h1>LTM Enhancement for COVID-19 Modeling</h1>
+
+<div class="section">
+    <h2>Overview</h2>
+    <p>This project aims to develop and enhance a Linear Threshold Model (LTM) for simulating the dynamics of COVID-19 transmission within the US population. The LTM is designed to emulate individual-level variability in susceptibility and integrate it with the SIR model for more accurate predictions.</p>
+</div>
+
+<div class="section">
+    <h2>Authors</h2>
+    <div>
+        <h3>Dylan Small</h3>
+        <img src="images/dylan" alt="Dylan Small" class="author-img">
+        <p>Email: dylansmall@gatech.edu</p>
+    </div>
+    <div>
+        <h3>Tejas Rajamadam Pradeep</h3>
+        <img src="images/tejas" alt="Tejas Pradeep" class="author-img">
+        <p>Email: rptejas@gatech.edu</p>
+    </div>
+    <div>
+        <h3>Anjana Chamarthi</h3>
+        <img src="images/anjana" alt="Anjana Chamarthi" class="author-img">
+        <p>Email: achamarthi6@gatech.edu</p>
+    </div>
+</div>
+
+
+<div class="section">
+    <h2>Abstract</h2>
+    <p>The COVID-19 pandemic highlighted the need for models that account for individual variability in disease susceptibility. Our project develops a Linear Threshold Model (LTM) representing individuals as nodes in a network with varying thresholds of influence for infection. The model is integrated with other models such as the SIR model to refine predictive capabilities.</p>
+</div>
+
+<div class="section">
+    <h2>Data Collection</h2>
+    <p>The dataset comprises weekly snapshots of COVID-19 epidemiology in the United States, including confirmed cases, deaths, recoveries, and tests. The data is sourced from the CDC.</p>
+</div>
+
+<div class="section">
+    <h2>Model Definition and Algorithms</h2>
+    <p>The project employs a combination of the LTM with SIR and other models, using a network-based approach to simulate disease spread. The models are implemented using Python, with a focus on integrating LTM thresholds and activations in disease transmission rates.</p>
+</div>
+
+<div class="section">
+    <h2>Model Evaluation</h2>
+    <p>A combination of weighted mean-squared-error loss, normalized error metrics, visual analysis, and comparative analysis is used to evaluate model performance.</p>
+</div>
+
+<div class="section">
+    <h2>Experiments and Results</h2>
+    <p>Various SIR-based models are tested with and without LTM augmentation. The dataset is split into training and validation sets, with grid search and optimization techniques used for calibration. The SIRS model, combined with the LTM, shows the most promising results, using reported COVID-19 death rate as a measure of R.</p>
+</div>
+
+  <div class="section">
+    <h2>Additional Resources</h2>
+    <ul>
+        <li><a href="report.pdf">Project Report (PDF)</a></li>
+        <li><a href="<link>">Source Code Repository</a></li>
+        <li><a href="<link>">Presentation</a></li>
+    </ul>
+</div>
+
+  
+</body>
+</html>
