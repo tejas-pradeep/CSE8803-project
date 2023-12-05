@@ -17,3 +17,6 @@ The code is put in both an .ipynb and .py format, whichever you prefer to run.
 3. Activate the environment in CLI with  ```source <name>/bin/activate```. If on windows run ```.\<name>\Scripts\activate```
 4. Install all required packages with ```pip install -r requirements.txt```
 5. Run python file or open ipynb file to run through our code and output the model evaluations, graphs, and data statistics.
+
+## Website
+Website Link: https://tejas-pradeep.github.io/CSE8803-project/
